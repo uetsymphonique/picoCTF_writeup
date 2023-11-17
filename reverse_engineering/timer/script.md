@@ -1,5 +1,5 @@
 Download the apk file
-```
+```commandline
 ┌──(stupidhacker㉿kali)-[~/Downloads/pico/tmp]
 └─$ wget https://artifacts.picoctf.net/c/449/timer.apk
 --2023-11-17 11:53:46--  https://artifacts.picoctf.net/c/449/timer.apk
@@ -15,7 +15,7 @@ timer.apk                                                  100%[================
 
 ```
 Decompile the apk file
-```
+```commandline
 ┌──(stupidhacker㉿kali)-[~/Downloads/pico/tmp]
 └─$ apktool d timer.apk 
 Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
@@ -34,7 +34,7 @@ I: Copying unknown files...
 I: Copying original files...
 ```
 Find the flag
-```
+```commandline
 ┌──(stupidhacker㉿kali)-[~/Downloads/pico/tmp/timer]
 └─$ grep "picoCTF" *
 apktool.yml:  versionName: picoCTF{t1m3r_r3v3rs3d_succ355fully_17496}
