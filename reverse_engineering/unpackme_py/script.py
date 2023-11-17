@@ -8,3 +8,11 @@ key_base64 = base64.b64encode(key_str.encode())
 f = Fernet(key_base64)
 plain = f.decrypt(payload)
 print(plain.decode())
+'''
+pw = input('What\'s the password? ')
+
+if pw == 'batteryhorse':
+  print('picoCTF{175_chr157m45_cd82f94c}')
+else:
+  print('That password is incorrect.')
+'''
