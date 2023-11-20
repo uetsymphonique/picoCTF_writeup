@@ -2,7 +2,7 @@ Download files:
 ```commandline
 wget https://artifacts.picoctf.net/c/205/unpackme-upx
 ``` 
-Installing udx from github https://github.com/upx/upx/releases
+Installing udx from github [upx](https://github.com/upx/upx/releases)
 
 Using upx to unpack the ```unpackme-upx``` file:
 ```
