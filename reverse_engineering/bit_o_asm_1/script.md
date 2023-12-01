@@ -1,0 +1,1 @@
+Realize that the value of ```eax``` register is ```0x30``` (48)
